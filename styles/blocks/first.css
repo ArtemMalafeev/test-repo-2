@@ -1,0 +1,113 @@
+/* First */
+
+.first {
+    width: 100%;
+    max-width: 800px;
+    padding-top: 26px;
+    padding-bottom: 30px;
+    padding-inline: 25px;
+    border-radius: 8px;
+    background-color: #1B1B1E;
+}
+
+/* Inner */
+
+.first__inner {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+/* Header */
+
+.first__header {
+    display: flex;
+    flex-direction: column;
+    row-gap: 34px;
+}
+
+/* Title */
+
+.first__title {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.108px;
+    text-transform: uppercase;
+}
+
+/* List */
+
+.first__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Item */
+
+.first__item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.first__item:not(:last-child) {
+    padding-right: 25px;
+    border-right: 1px solid #272B33;
+}
+
+/* Header */
+
+.first__item-header {
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+    color: #93969C;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.084px;
+    text-transform: uppercase;
+}
+
+/* Icon */
+
+.first__icon {
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+}
+
+.first__icon--meat {
+    background-color: #9747FF;
+}
+
+.first__icon--pay {
+    background-color: #0077F7;
+}
+
+.first__icon--other {
+    background-color: #13D6FF;
+}
+
+.first__icon--hidden {
+    display: none;
+}
+
+/* Value */
+
+.first__item-value {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+/* Chart */
+
+.first__chart {
+    width: 100%;
+    height: 300px;
+}

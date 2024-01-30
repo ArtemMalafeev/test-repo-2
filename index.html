@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Echarts</title>
+</head>
+
+<body class="page">
+  <header class="page__header header">
+    <h1 class="header__title">Тестовое задание для компании "SOTNIKOV - Digital Studio"</h1>
+  </header>
+
+  <div class="page__main main">
+    <div class="charts">
+      <div class="first">
+        <div class="first__inner">
+          <div class="first__header">
+            <h2 class="first__title">
+              Общая выручка
+            </h2>
+            <ul class="first__list">
+              <li class="first__item">
+                <div class="first__item-header">
+                  <span class="first__icon first__icon--hidden"></span>
+                  <p class="first__item-title">
+                    Общее оплачено
+                  </p>
+                </div>
+                <p class="first__item-value">
+                  1 123 500 ₽
+                </p>
+              </li>
+              <li class="first__item">
+                <div class="first__item-header">
+                  <span class="first__icon first__icon--meat"></span>
+                  <p class="first__item-title">
+                    Деньги за мясо
+                  </p>
+                </div>
+                <p class="first__item-value">
+                  145 200 ₽
+                </p>
+              </li>
+              <li class="first__item">
+                <div class="first__item-header">
+                  <span class="first__icon first__icon--pay"></span>
+                  <p class="first__item-title">
+                    Расходы на ЗП
+                  </p>
+                </div>
+                <p class="first__item-value">
+                  1 223 500 ₽
+                </p>
+              </li>
+              <li class="first__item">
+                <div class="first__item-header">
+                  <span class="first__icon first__icon--other"></span>
+                  <p class="first__item-title">
+                    Прочее
+                  </p>
+                </div>
+                <p class="first__item-value">
+                  23 500 ₽
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div id="first" class="first__chart"></div>
+        </div>
+      </div>
+
+      <div class="second">
+        <div class="second__inner">
+          <div class="second__controllers">
+            <button class="second__button second__button--active">
+              <span class="second__icon second__icon--hidden"></span>
+              <p>Все</p>
+            </button>
+            <button class="second__button">
+              <span class="second__icon second__icon--plan"></span>
+              <p>План</p>
+            </button>
+            <button class="second__button">
+              <span class="second__icon second__icon--fact"></span>
+              <p>Факт</p>
+            </button>
+          </div>
+          <div id="second" class="second__chart">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="page__footer footer">
+    <a class="footer__link" href="https://github.com/ArtemMalafeev" target="_blank">Artem Malafeev</a>
+  </footer>
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>

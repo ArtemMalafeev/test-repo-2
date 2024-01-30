@@ -1,0 +1,9 @@
+/* Charts */
+
+.charts {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    padding-block: 50px;
+    padding-inline: 100px;
+}

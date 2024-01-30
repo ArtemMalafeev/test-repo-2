@@ -1,0 +1,10 @@
+/* Blocks */
+
+@import url('./styles/blocks/page.css');
+@import url('./styles/blocks/header.css');
+@import url('./styles/blocks/main.css');
+@import url('./styles/blocks/footer.css');
+@import url('./styles/blocks/first.css');
+@import url('./styles/blocks/second.css');
+@import url('./styles/blocks/tooltip.css');
+@import url('./styles/blocks/charts.css');

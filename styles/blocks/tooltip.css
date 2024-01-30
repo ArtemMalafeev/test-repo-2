@@ -1,0 +1,51 @@
+/* Tooltip */
+
+.tooltip {
+    padding-block: 8px;
+    padding-inline: 16px;
+    background-color: #212226;
+    border-radius: 8px;
+}
+
+/* List */
+
+.tooltip__list {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+/* Header */
+
+.tooltip__header {
+    line-height: 20px;
+    letter-spacing: -0.084px;
+    color: #818281;
+}
+
+/* Information */
+
+.tooltip__information {
+    display: flex;
+    column-gap: 6px;
+    align-items: center;
+}
+
+/* Circle */
+
+.tooltip__circle {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+/* Value */
+
+.tooltip__value {
+    color: white;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.084px;
+}
